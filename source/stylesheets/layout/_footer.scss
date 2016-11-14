@@ -1,8 +1,4 @@
 #footer {
-
-
-}
-#footer {
   transition: 3000ms;
 }
 
@@ -10,7 +6,8 @@
 #social-links i {
   font-size: 30px;
   color: #CCCCCC;
-}
-#social-links i:hover {
-  color: yellow;
+  &:hover {
+    color: $yellow
+  }
+
 }
